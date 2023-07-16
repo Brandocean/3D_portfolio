@@ -23,7 +23,7 @@ const Navbar = () => {
             <span className='sm:block hidden'>| Software Engineer</span>
             </p>
         </Link>
-
+        <p className='text-red-500'>asasas</p>
       </div>
     </nav>
   )
