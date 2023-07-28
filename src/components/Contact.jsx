@@ -16,9 +16,45 @@ const Contact = () => {
   })
   const [loading, setLoading] = useState(false)
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {}
+    setForm({ ...form, [name]: value})
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setLoading(true)
+
+    emailjs.send(
+      'service_4kefpji',
+      'template_04g0bwa',
+      {
+        from_name: form.name,
+        to_name: 'Brandon',
+        from_email: form.email,
+        to_email: 'brandocean2016@gmail.com',
+        message: form.message,
+      },
+      'dbI_P7iM-1_DIkOtn'
+    )
+    .then(() => {
+      setLoading(false)
+      alert('Thank you. I will get back to you as soon as possible.')
+
+      setForm({
+        name:'',
+        email:'',
+        message:'',
+      })
+    }, (error) => {
+      setLoading(false)
+      
+      console.log(error)
+
+      alert('Something went wrong.')
+    })
+  }
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
