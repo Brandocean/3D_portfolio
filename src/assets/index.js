@@ -44,6 +44,7 @@ import google from "./company/google.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import kanbanstar from "./kanbanstar.png";
 
 export {
   logo,
@@ -89,4 +90,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  kanbanstar,
 };
