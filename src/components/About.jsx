@@ -43,10 +43,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a passionate computer technology engineer interested in roles such as web development, 
-        cloud services, data science, and artificial intelligence since one of my life purposes is to 
-        solve a Sustainable Development Goal (SDG), especially one focused on goal number three “Health 
-        and Wellbeing”.
+        I'm a skilled software engineer with experience in AWS and
+        GCP, and expertise in frameworks like React and Node.js. 
+        I'm a quick learner and collaborate closely with clients to
+        create efficient, scalable, and user-friendly solutions that solve
+        real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

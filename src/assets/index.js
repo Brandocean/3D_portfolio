@@ -20,11 +20,26 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import androidstudio from "./tech/androidstudio.png";
+import aws from "./tech/aws2.png"
+import gcp from "./tech/gcp.png"
+import bootstrap from "./tech/bootstrap.png"
+import cpp from "./tech/cpp.png"
+import firebase from "./tech/firebase.png"
+import java from "./tech/java.png"
+import kotlin from "./tech/kotlin.png"
+import linux from "./tech/linux.png"
+import mysql from "./tech/mysql.png"
+import python from "./tech/python.png"
+import unity from "./tech/unity.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import innovatium from "./company/innovatium.png"
+import atos from "./company/Atos.png"
+import google from "./company/google.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -40,6 +55,18 @@ export {
   menu,
   close,
   css,
+  androidstudio,
+  aws,
+  gcp,
+  bootstrap,
+  cpp,
+  firebase,
+  java,
+  kotlin,
+  linux,
+  mysql,
+  python,
+  unity,
   docker,
   figma,
   git,
@@ -53,6 +80,9 @@ export {
   typescript,
   threejs,
   meta,
+  innovatium,
+  atos,
+  google,
   shopify,
   starbucks,
   tesla,

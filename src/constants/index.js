@@ -7,6 +7,18 @@ import {
     typescript,
     html,
     css,
+    androidstudio,
+    aws,
+    gcp,
+    bootstrap,
+    cpp,
+    firebase,
+    java,
+    kotlin,
+    linux,
+    mysql,
+    python,
+    unity,
     reactjs,
     redux,
     tailwind,
@@ -18,6 +30,9 @@ import {
     meta,
     starbucks,
     tesla,
+    innovatium,
+    atos,
+    google,
     shopify,
     carrent,
     jobit,
@@ -54,7 +69,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Cloud Engineer",
+        title: "Cloud Developer",
         icon: creator,
     },
 ];
@@ -68,26 +83,26 @@ const technologies = [
         name: "CSS 3",
         icon: css,
     },
+    // {
+    //     name: "Bootstrap",
+    //     icon: bootstrap
+    // },
     {
         name: "JavaScript",
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
+        name: "Java",
+        icon: java,
     },
     {
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
+    // {
+    //     name: "Tailwind CSS",
+    //     icon: tailwind,
+    // },
     {
         name: "Node JS",
         icon: nodejs,
@@ -97,69 +112,106 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "MySql",
+        icon: mysql,
     },
+    {
+        name: "Amazon Web Services",
+        icon: aws,
+    },
+    {
+        name: "Google Cloud Platform",
+        icon: gcp,
+    },
+    // {
+    //     name: "Firebase",
+    //     icon: firebase,
+    // },
+    {
+        name: "Android Studio",
+        icon: androidstudio,
+    },
+    // {
+    //     name: "Kotlin",
+    //     icon: kotlin,
+    // },
     {
         name: "git",
         icon: git,
     },
     {
+        name: "Linux",
+        icon: linux,
+    },
+    // {
+    //     name: "C++",
+    //     icon: cpp,
+    // },
+    // {
+    //     name: "Python",
+    //     icon: python,
+    // },
+    {
         name: "figma",
         icon: figma,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
+    // {
+    //     name: "Unity",
+    //     icon: unity,
+    // },
+    // {
+    //     name: "docker",
+    //     icon: docker,
+    // },
 ];
 
 const experiences = [
+    // {
+    //     title: "React.js Developer",
+    //     company_name: "Starbucks",
+    //     icon: starbucks,
+    //     iconBg: "#383E56",
+    //     date: "March 2020 - April 2021",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: "Software Product Sprint Participant",
+        company_name: "Google",
+        icon: google,
+        iconBg: "#E6DEDD",
+        date: "May 2022 - Aug 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Collaboration with a team of peers to design and deploy a web application using Java, JavaScript, HTML and CSS over the course of 10 weeks.",
+            "Implementing multiple Google Cloud Platform APIs, including App Engine and Datastore.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Contributing to open source software using Git and GitHub and  performing code reviews",
+        ]
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        title: "Full stack Developer",
+        company_name: "Innovatium",
+        icon: innovatium,
+        iconBg: "#383E56",
+        date: "Jan 2023 - Jun 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining Kanban Star web application using React.js, Node.js, Firebase and AWS.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
+            "Implementing agile methods such as SCRUM and Kanban.",
         ],
     },
     {
         title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        company_name: "Atos",
+        icon: atos,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "Aug 2023 - Present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
