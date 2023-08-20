@@ -38,6 +38,8 @@ import {
     jobit,
     tripguide,
     kanbanstar,
+    wisdomisland,
+    gplant,
     threejs,
 } from "../assets";
 
@@ -251,46 +253,46 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Pizzy or IoT",
+        name: "GPlant with IoT",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based platform that allows users to check data about their intelligent plants, providing a convenient solution for caring the nature of our home.",
         tags: [
             {
-                name: "react",
+                name: "html",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "arduino",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "mysql",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: gplant,
+        source_code_link: "https://github.com/Brandocean/GPlant-IoT.git",
     },
     {
         name: "Wisdom Island",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Videogame where players fight with each other generating power by answering questions. This is supported by a web platform where the user can access courses.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "metaverse",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "unity",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: wisdomisland,
+        source_code_link: "https://github.com/Brandocean/Wisdom-Island.git",
     },
     {
         name: "Kanban Star",
@@ -311,7 +313,7 @@ const projects = [
             },
         ],
         image: kanbanstar,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Brandocean/KanbanStar",
     },
 ];
 

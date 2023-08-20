@@ -45,6 +45,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import kanbanstar from "./kanbanstar.png";
+import wisdomisland from "./wisdomisland.png";
+import gplant from "./gplant.png";
 
 export {
   logo,
@@ -91,4 +93,6 @@ export {
   jobit,
   tripguide,
   kanbanstar,
+  wisdomisland,
+  gplant,
 };
