@@ -41,6 +41,7 @@ import {
     wisdomisland,
     gplant,
     threejs,
+    testimonial1,
 } from "../assets";
 
 export const navLinks = [
@@ -227,27 +228,27 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Very enthusiastic, positive and curious person with solid technological concepts and a good level of tolerance for frustration.",
+        name: "Salvador Avila",
+        designation: "Software Engineer",
+        company: "RelationalAI",
+        image: testimonial1,
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "His strong work ethic is evident, coupled with his adeptness in problem-solving and communication. A remarkable and efficient SCRUM Master.",
+        name: "Francisco Tame",
+        designation: "Software Engineer",
+        company: "IMA Technologies",
+        image: "https://scontent.fcvj4-1.fna.fbcdn.net/v/t1.6435-9/33156226_2144547948906806_7867763079860191232_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=BEEQ9Pu9cfUAX97slVi&_nc_ht=scontent.fcvj4-1.fna&oh=00_AfDiCcOv7JDQuJhKmKqYbkvUDqtO8MAV7cAxBxvoLrb6Og&oe=650B9493",
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "I admire his determination, his high level of commitment to what he does and his sense of humanity. He is a leader always ready to support his team.",
+        name: "Mónica Larre",
+        designation: "Teacher",
+        company: "Tecnológico de Monterrey",
+        image: "https://scontent.fcvj4-1.fna.fbcdn.net/v/t1.18169-9/12348003_1030707796968215_5922861934109756894_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=G1lRBxdJFPMAX900_6j&_nc_ht=scontent.fcvj4-1.fna&oh=00_AfDl0Kp4byN7Ng5eHH8oY1U1SMeJ-vakPFHfOc4sKS4J-g&oe=650B9A98",
     },
 ];
 
