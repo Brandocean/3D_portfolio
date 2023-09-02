@@ -1,11 +1,14 @@
-import { motion } from "framer-motion";
+import React from 'react';
 import Lottie from "lottie-react";
+import { motion } from "framer-motion";
+import { isAndroid } from 'react-device-detect';
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import animationData from "../assets/animation_lm2fp5x7.json";
 
 const Hero = () => {
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -27,11 +30,14 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* <ComputersCanvas /> */}
-      <Lottie className={`absolute inset-0 top-[120px] mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
-      animationData={animationData} 
-      />
-
+      {isAndroid ? (
+        <Lottie 
+          className={`absolute inset-0 top-[120px] mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+          animationData={animationData}
+        />
+      ) : (
+        <ComputersCanvas />
+      )}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
