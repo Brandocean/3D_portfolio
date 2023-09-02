@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
+import Lottie from "lottie-react";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import animationData from "../assets/animation_lm2fp5x7.json";
 
 const Hero = () => {
   return (
@@ -25,7 +27,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
+      <Lottie className={`absolute inset-0 top-[120px] mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+      animationData={animationData} 
+      />
+
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
