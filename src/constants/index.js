@@ -82,91 +82,63 @@ const technologies = [
     {
         name: "HTML 5",
         icon: html,
+        style: "shadow-white",
     },
     {
         name: "CSS 3",
         icon: css,
+        style: "shadow-white",
     },
-    // {
-    //     name: "Bootstrap",
-    //     icon: bootstrap
-    // },
     {
         name: "JavaScript",
         icon: javascript,
+        style: "shadow-white",
     },
     {
         name: "Java",
         icon: java,
+        style: "shadow-white",
     },
     {
         name: "React JS",
         icon: reactjs,
+        style: "shadow-white",
     },
-    // {
-    //     name: "Tailwind CSS",
-    //     icon: tailwind,
-    // },
     {
         name: "Node JS",
         icon: nodejs,
+        style: "shadow-white",
     },
     {
         name: "MongoDB",
         icon: mongodb,
+        style: "shadow-white",
     },
     {
         name: "MySql",
         icon: mysql,
+        style: "shadow-white",
     },
     {
-        name: "Amazon Web Services",
+        name: "AWS",
         icon: aws,
+        style: "shadow-white",
     },
     {
-        name: "Google Cloud Platform",
+        name: "GCP",
         icon: gcp,
+        style: "shadow-white",
     },
-    // {
-    //     name: "Firebase",
-    //     icon: firebase,
-    // },
-    // {
-    //     name: "Android Studio",
-    //     icon: androidstudio,
-    // },
-    // {
-    //     name: "Kotlin",
-    //     icon: kotlin,
-    // },
     {
-        name: "git",
+        name: "Git",
         icon: git,
+        style: "shadow-white",
     },
     {
         name: "Linux",
         icon: linux,
+        style: "shadow-white",
     },
-    // {
-    //     name: "C++",
-    //     icon: cpp,
-    // },
-    // {
-    //     name: "Python",
-    //     icon: python,
-    // },
-    {
-        name: "figma",
-        icon: figma,
-    },
-    // {
-    //     name: "Unity",
-    //     icon: unity,
-    // },
-    // {
-    //     name: "docker",
-    //     icon: docker,
-    // },
 ];
 
 const experiences = [
