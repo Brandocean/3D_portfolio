@@ -42,6 +42,8 @@ import {
     gplant,
     threejs,
     testimonial1,
+    testimonial2,
+    testimonial3
 } from "../assets";
 
 export const navLinks = [
@@ -212,7 +214,7 @@ const testimonials = [
         name: "Francisco Tame",
         designation: "Software Engineer",
         company: "IMA Technologies",
-        image: "https://scontent.fcvj4-1.fna.fbcdn.net/v/t1.6435-9/33156226_2144547948906806_7867763079860191232_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=BEEQ9Pu9cfUAX97slVi&_nc_ht=scontent.fcvj4-1.fna&oh=00_AfDiCcOv7JDQuJhKmKqYbkvUDqtO8MAV7cAxBxvoLrb6Og&oe=650B9493",
+        image: testimonial2,
     },
     {
         testimonial:
@@ -220,7 +222,7 @@ const testimonials = [
         name: "Mónica Larre",
         designation: "Teacher",
         company: "Tecnológico de Monterrey",
-        image: "https://scontent.fcvj4-1.fna.fbcdn.net/v/t1.18169-9/12348003_1030707796968215_5922861934109756894_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=G1lRBxdJFPMAX900_6j&_nc_ht=scontent.fcvj4-1.fna&oh=00_AfDl0Kp4byN7Ng5eHH8oY1U1SMeJ-vakPFHfOc4sKS4J-g&oe=650B9A98",
+        image: testimonial3,
     },
 ];
 
