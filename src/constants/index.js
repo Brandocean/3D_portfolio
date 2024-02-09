@@ -63,19 +63,19 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Frontend Developer",
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Backend Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Cloud Developer",
         icon: backend,
     },
     {
-        title: "Cloud Developer",
+        title: "Software Engineer",
         icon: creator,
     },
 ];
@@ -144,19 +144,6 @@ const technologies = [
 ];
 
 const experiences = [
-    // {
-    //     title: "React.js Developer",
-    //     company_name: "Starbucks",
-    //     icon: starbucks,
-    //     iconBg: "#383E56",
-    //     date: "March 2020 - April 2021",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
     {
         title: "Software Product Sprint Participant",
         company_name: "Google",
@@ -185,15 +172,15 @@ const experiences = [
         ],
     },
     {
-        title: "Web Developer",
+        title: "Back-end Developer",
         company_name: "Atos",
         icon: atos,
         iconBg: "#E6DEDD",
-        date: "Aug 2023 - Present",
+        date: "Aug 2023 - Dec 2023",
         points: [
-            "Developing and maintaining web applications using Angular and other related technologies.",
+            "Developing and maintaining Microservices REST APIs using .NET technologies and other add-ons.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Implementing best practices like Clean Architecture, SOLID, Repository Pattern, CQRS, Mediator, Saga, and Pub/Sub.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
